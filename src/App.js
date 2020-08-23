@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import MyForm from './Form/MyForm';
+import NewForm from './Exercise/NewForm';
+import MyBank from './Projekt_Banana_bank/MyBank';
+import ContactList from './Projekt_contacts/ContactList';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <MyForm />
+      <NewForm /> */}
+      <MyBank />
+      <ContactList />
     </div>
   );
 }
